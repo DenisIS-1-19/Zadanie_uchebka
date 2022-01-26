@@ -25,26 +25,26 @@ namespace Zadanie
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 Form3 = new Form3();
-            Form3.ShowDialog();
+            Zadanie2 Zadanie1 = new Zadanie2();
+            Zadanie2.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form4 Form4 = new Form4();
-            Form4.ShowDialog();
+            Zadanie3 Zadanie3 = new Zadanie3();
+            Zadanie3.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form5 Form5 = new Form5();
-            Form5.ShowDialog();
+            Zadanie4 Zadanie4 = new Zadanie4();
+            Zadanie4.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form6 Form6 = new Form6();
-            Form6.ShowDialog();
+            Zadanie5 Zadanie5 = new Zadanie5();
+            Zadanie5.ShowDialog();
         }
     }
 }
