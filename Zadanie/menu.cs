@@ -25,7 +25,7 @@ namespace Zadanie
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Zadanie2 Zadanie1 = new Zadanie2();
+            Zadanie2 Zadanie2 = new Zadanie2();
             Zadanie2.ShowDialog();
         }
 
