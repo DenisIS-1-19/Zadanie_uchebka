@@ -89,6 +89,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Zadanie3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zadanie3.Designer.cs">
+      <DependentUpon>Zadanie3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zadanie2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Zadanie3.resx">
+      <DependentUpon>Zadanie3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Zadanie2.resx">
       <DependentUpon>Zadanie2.cs</DependentUpon>
     </EmbeddedResource>
