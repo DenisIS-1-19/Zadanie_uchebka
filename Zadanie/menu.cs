@@ -19,8 +19,8 @@ namespace Zadanie
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 Form2 = new Form2();
-            Form2.ShowDialog();
+            Zadanie1 Zadanie1 = new Zadanie1();
+            Zadanie1.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
