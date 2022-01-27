@@ -48,7 +48,8 @@
     <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
       <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
     </Reference>
-    <Reference Include="Library">
+    <Reference Include="Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Library\obj\Debug\Library.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
@@ -92,6 +93,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Zadanie4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zadanie4.Designer.cs">
+      <DependentUpon>Zadanie4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zadanie3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +125,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Zadanie4.resx">
+      <DependentUpon>Zadanie4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Zadanie3.resx">
       <DependentUpon>Zadanie3.cs</DependentUpon>
     </EmbeddedResource>
